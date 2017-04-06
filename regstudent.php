@@ -37,33 +37,39 @@
 		<main>
 		
 		<div class="mainform">
+		
+		<div class="circlespace">
+		<div class="circle">
+		</div>
+		</div>
 		<div class="regform">
-	<form>
-		<div class="form-group">
-     
+	<form action="regstudent2.php">
+		
       <input type="text" class="form-control" id="for" placeholder="Förnamn" style="float: left;
-    width: 48%; margin-bottom:15px;">
-    </div>
-    <div class="form-group">
+    width: 48%; margin-bottom:25px;">
+
       
       <input type="password" class="form-control" id="eft" placeholder="Efternamn" style="float: right;
     width: 48%;">
-    </div>
+  
 	
-	 <div class="form-group">
+	
       
-      <input type="password" class="form-control" id="eft" placeholder="E-mailadress" >
-    </div> 
+      <input type="password" class="form-control" id="eft" placeholder="E-mailadress" style=" margin-bottom:25px;">
+
 	
-	 <div class="form-group">
 	<input type="text" class="form-control" id="for" placeholder="lösenord" style="float: left;
-    width: 48%; margin-bottom:15px;">
-    </div>
-    <div class="form-group">
+    width: 48%; margin-bottom:50px;">
+
       
       <input type="password" class="form-control" id="eft" placeholder="lösenord" style="float: right;
     width: 48%;">
-    </div>
+
+	
+
+      
+     <button type="submit" class="btn btn-default" style="width: 100%; background-color: #ec971f; color: white; ">Nästa sida </button>
+
   </form>
 		
 	
